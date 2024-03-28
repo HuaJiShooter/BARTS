@@ -1,0 +1,631 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15773 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+F:/test
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+63654
+Successfully changed project path to: F:/test
+F:/test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14704] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 3665613915 [EditorId] 3665613915 [Version] 1048832 [Id] WindowsEditor(7,PRTS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14704] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 3665613915 [EditorId] 3665613915 [Version] 1048832 [Id] WindowsEditor(7,PRTS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 19.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009369 seconds.
+- Loaded All Assemblies, in  0.327 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.251 seconds
+Domain Reload Profiling: 572ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (114ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (101ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (251ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (200ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (135ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.632 seconds
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1354ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (166ms)
+				TypeCache.ScanAssembly (153ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (348.4 KB). Loaded Objects now: 5509.
+Memory consumption went from 209.7 MB to 209.4 MB.
+Total: 3.351700 ms (FindLiveObjects: 0.372900 ms CreateObjectMapping: 0.162200 ms MarkObjects: 2.634200 ms  DeleteObjects: 0.181700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 522058.183075 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh/CH0151_Weapon_Mask.png
+  artifactKey: Guid(f20d1b5b49463d94bb70e505ea080af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh/CH0151_Weapon_Mask.png using Guid(f20d1b5b49463d94bb70e505ea080af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5fd19703c4695d2f46a4452da62736d') in 0.052591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 720.830427 seconds.
+  path: Assets/New Shader Graph.shadergraph
+  artifactKey: Guid(d80b98a728212d441907aa3a81f82c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Shader Graph.shadergraph using Guid(d80b98a728212d441907aa3a81f82c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be543ed461eb53b7d7b1b58cd701b10a') in 0.815978 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 94.518223 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original/CH0151_Halo.png
+  artifactKey: Guid(13998cd633df90644b588e6350b5e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original/CH0151_Halo.png using Guid(13998cd633df90644b588e6350b5e117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d5afa3f3d771fd36daa44c9003c672') in 0.012108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original/MikaEnemy_Original.fbx
+  artifactKey: Guid(e5b6288fd5a5e754e966bb18d9fedb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original/MikaEnemy_Original.fbx using Guid(e5b6288fd5a5e754e966bb18d9fedb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdc9f1f8253484043cede0ce7560f11') in 0.114333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 341
+========================================================================
+Received Import Request.
+  Time since last request: 599.150626 seconds.
+  path: Assets/mouthshader.png
+  artifactKey: Guid(776784b85c31ece419e97fe017758885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouthshader.png using Guid(776784b85c31ece419e97fe017758885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa74f8c14df5f0d45d3b28c6097fe8e') in 0.010666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.946853 seconds.
+  path: Assets/mouthshader.png
+  artifactKey: Guid(776784b85c31ece419e97fe017758885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouthshader.png using Guid(776784b85c31ece419e97fe017758885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c2c605c73ab60d92b5019164788dfc7') in 0.141539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 110.509550 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original.dat
+  artifactKey: Guid(c86c2903f0a4a304fbf0368fd844f883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original.dat using Guid(c86c2903f0a4a304fbf0368fd844f883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea69dc11ae472758301f1fe355d18d10') in 0.001063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.811926 seconds.
+  path: Assets/鍦ｅ洯鏈姳/FX_MESH_Mika_Halo_Trail.dat
+  artifactKey: Guid(c8e7e7e0ced31284199b40113c52e7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/FX_MESH_Mika_Halo_Trail.dat using Guid(c8e7e7e0ced31284199b40113c52e7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d4cae5d75b40a488e7d6c0e8128a0e') in 0.000902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.039328 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh
+  artifactKey: Guid(e515127b068f9254bb0f68ffd568ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh using Guid(e515127b068f9254bb0f68ffd568ed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb35693c1d6db9aadd17093728ee5b82') in 0.000573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.506760 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original
+  artifactKey: Guid(2185061da8c725e4ea3bf3eef1ce48ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original using Guid(2185061da8c725e4ea3bf3eef1ce48ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd763c1facd28597ef34ae83aa8ae278') in 0.000567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.488566 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original 1.dat
+  artifactKey: Guid(cfa6aa2cdc203a344a242ba2025123db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original 1.dat using Guid(cfa6aa2cdc203a344a242ba2025123db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c118442c6f9eca2e5ab0aaaca696077') in 0.000898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.180407 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Halo #921210.dat
+  artifactKey: Guid(2530a4d97c08dad4c9b85637411e609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Halo #921210.dat using Guid(2530a4d97c08dad4c9b85637411e609d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe18af49e806a1017fe2dabae18301a') in 0.000888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.671115 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh.dat
+  artifactKey: Guid(bc948df9b4e14444a9a3f305dc29d427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh.dat using Guid(bc948df9b4e14444a9a3f305dc29d427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4d337f49ea8611ac6c4136bc9ee020') in 0.000868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.730520 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_MeshAvatar.dat
+  artifactKey: Guid(36b16c3227a1b214c99c70352a927059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_MeshAvatar.dat using Guid(36b16c3227a1b214c99c70352a927059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c676a63bafc0fa40f7aaffe5e244c5ab') in 0.001063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 507.237304 seconds.
+  path: Assets/mouth
+  artifactKey: Guid(0137162ca0ab09642ba2a8b28cb8197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth using Guid(0137162ca0ab09642ba2a8b28cb8197b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692dd6db474a297c73dbf2bd1673199f') in 0.000963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.950054 seconds.
+  path: Assets/mouth
+  artifactKey: Guid(0137162ca0ab09642ba2a8b28cb8197b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth using Guid(0137162ca0ab09642ba2a8b28cb8197b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f40fe48a46ee3169de71b65f329f3a87') in 0.003213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 226.824202 seconds.
+  path: Assets/mouth/Character_Mouth_2.png
+  artifactKey: Guid(c54b13adb4bbcdc4b80b2f012bb61409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Character_Mouth_2.png using Guid(c54b13adb4bbcdc4b80b2f012bb61409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5456a4e6df3c33ddf51412d7014d8f6') in 0.027028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007848 seconds.
+  path: Assets/mouth/Character_Mouth_Black.png
+  artifactKey: Guid(ed3587dbb1091bf46a6a4bb9247ae378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Character_Mouth_Black.png using Guid(ed3587dbb1091bf46a6a4bb9247ae378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf7a144951035769bff1bc8ce9c69c3') in 0.011712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/mouth/Hina_Mouth 3.png
+  artifactKey: Guid(29ce19996e221c44da2fd065e49d8b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Hina_Mouth 3.png using Guid(29ce19996e221c44da2fd065e49d8b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f66fbd037d048499ad10c77bed0977a') in 0.010559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/mouth/Character_Mouth_Black 2.png
+  artifactKey: Guid(99d2413311ef53a44b452eb59c2ec861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Character_Mouth_Black 2.png using Guid(99d2413311ef53a44b452eb59c2ec861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f60259b2f2c9e6035e513942341fcef') in 0.011130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/mouth/Hina_Mouth 5.png
+  artifactKey: Guid(78889dc5d9ea4524cbe4e290072342c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Hina_Mouth 5.png using Guid(78889dc5d9ea4524cbe4e290072342c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c664b9354bec71b45cffa510c7a9e15') in 0.013310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/mouth/Hina_Mouth 8.png
+  artifactKey: Guid(4b2b356194a5bdf45b6a1f8a1424a026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Hina_Mouth 8.png using Guid(4b2b356194a5bdf45b6a1f8a1424a026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ac891c9fede64268a1bbd25bda6486') in 0.011376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/mouth/Tsurugi_Mouth 3.png
+  artifactKey: Guid(622376965f6887d4283677386ed55768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Tsurugi_Mouth 3.png using Guid(622376965f6887d4283677386ed55768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39527cdc01cda76d58a05dfa2a1ed3c2') in 0.013228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/mouth/Izuna_Mouth #145676.png
+  artifactKey: Guid(73f73d8614fd634498648a3e4a92b30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Izuna_Mouth #145676.png using Guid(73f73d8614fd634498648a3e4a92b30d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb40717b30cc987c5378deaf7500180') in 0.010946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/mouth/Character_Mouth_Black 9.png
+  artifactKey: Guid(4e29ff3d36778a44b9421538c01e0f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Character_Mouth_Black 9.png using Guid(4e29ff3d36778a44b9421538c01e0f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e6cd146e8981513321661dc8448c5a') in 0.011068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/mouth/Izuna_Mouth.png
+  artifactKey: Guid(aba96888419e4d14ca4e29a424592a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Izuna_Mouth.png using Guid(aba96888419e4d14ca4e29a424592a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcddcee897dacf3f4013164ff87dc64') in 0.011732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/mouth/Character_Mouth_Black 4.png
+  artifactKey: Guid(5de42f7aa89df6347a3f745443865257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Character_Mouth_Black 4.png using Guid(5de42f7aa89df6347a3f745443865257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea9106746eea6145ff2c32ef3b22a8dd') in 0.012242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/mouth/Izuna_Mouth 1.png
+  artifactKey: Guid(6ff86d49bb3041449961a851945637d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Izuna_Mouth 1.png using Guid(6ff86d49bb3041449961a851945637d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dabd018de807ca42a9e89ead99c312') in 0.012008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/mouth/Izuna_Mouth 5.png
+  artifactKey: Guid(15b747418e2e67747815d30b8c22c6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Izuna_Mouth 5.png using Guid(15b747418e2e67747815d30b8c22c6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b5c9185fd620a89a7276ed7d2cb47f') in 0.012258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/mouth/Izuna_Mouth 6.png
+  artifactKey: Guid(2fc2b0a1c48fed648ae38d6338a9c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Izuna_Mouth 6.png using Guid(2fc2b0a1c48fed648ae38d6338a9c99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4e225d5908d1a7ab25edfee99bf61a') in 0.010757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/mouth/Izuna_Mouth 4.png
+  artifactKey: Guid(2947ddb1bd3c84b4ba14bdd26cf292fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Izuna_Mouth 4.png using Guid(2947ddb1bd3c84b4ba14bdd26cf292fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e70f86ea6a44d366ff24a7933e90ef85') in 0.010980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/mouth/Hina_Mouth 4.png
+  artifactKey: Guid(107b490ec0984bc4bb7fa16b8ba04536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Hina_Mouth 4.png using Guid(107b490ec0984bc4bb7fa16b8ba04536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a600e2153f6556b63534581f520e8f') in 0.011509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/mouth/Tsurugi_Mouth 4.png
+  artifactKey: Guid(79ab016b12ffece4090afb9a1782c328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Tsurugi_Mouth 4.png using Guid(79ab016b12ffece4090afb9a1782c328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e206c6ae547ed2982d269978a0b0d7e5') in 0.010350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/mouth/Tsurugi_Mouth 2.png
+  artifactKey: Guid(c756a04554141634bae47a37f90177a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mouth/Tsurugi_Mouth 2.png using Guid(c756a04554141634bae47a37f90177a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fb9e30857b50878af13645f29673fdb') in 0.010288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.615698 seconds.
+  path: Assets/mouth/Character_Mouth_Black.png
+  artifactKey: Guid(ed3587dbb1091bf46a6a4bb9247ae378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Character_Mouth_Black.png using Guid(ed3587dbb1091bf46a6a4bb9247ae378) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '717ce3424583c6d76983536ab25934ee') in 0.016225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/mouth/Character_Mouth_Black 5.png
+  artifactKey: Guid(8e9126901ccd53a4583d4657a85235a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Character_Mouth_Black 5.png using Guid(8e9126901ccd53a4583d4657a85235a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8353a4fdd1733f56985b04af4d9d1284') in 0.015353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/mouth/Character_Mouth_Black 7.png
+  artifactKey: Guid(287d7ecd047eea941af1ceaaddea3e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Character_Mouth_Black 7.png using Guid(287d7ecd047eea941af1ceaaddea3e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56c2ff6d2e57b5a474e555b0f177e264') in 0.021811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/mouth/Character_Mouth_Black 3.png
+  artifactKey: Guid(c10a926bb4ba47b4b9b0d48c0c9331e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Character_Mouth_Black 3.png using Guid(c10a926bb4ba47b4b9b0d48c0c9331e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce676948dae1d750bed0b9d9ece98338') in 0.015702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/mouth/Tsurugi_Mouth 3.png
+  artifactKey: Guid(622376965f6887d4283677386ed55768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Tsurugi_Mouth 3.png using Guid(622376965f6887d4283677386ed55768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7071a04798e2e9d2cd60ba1977009cbf') in 0.019447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/mouth/Character_Mouth_2 1.png
+  artifactKey: Guid(82176aa8fccb84c489300fe75a3b412b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Character_Mouth_2 1.png using Guid(82176aa8fccb84c489300fe75a3b412b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df46917a91765842dcd2dab33b6bd0b9') in 0.017435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/mouth/Izuna_Mouth 4.png
+  artifactKey: Guid(2947ddb1bd3c84b4ba14bdd26cf292fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Izuna_Mouth 4.png using Guid(2947ddb1bd3c84b4ba14bdd26cf292fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dde30576e2ee0456082d0068e131803a') in 0.018609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/mouth/Izuna_Mouth 2.png
+  artifactKey: Guid(58356d90551f31e42b2c1e6229bf5aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Izuna_Mouth 2.png using Guid(58356d90551f31e42b2c1e6229bf5aa6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fa41b77237595a51508ebf6d39969bd') in 0.018794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/mouth/Hina_Mouth 7.png
+  artifactKey: Guid(1f6fab2ee60fc6c4da6ddb9544c17ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Hina_Mouth 7.png using Guid(1f6fab2ee60fc6c4da6ddb9544c17ee5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '67737f587681200243a434d6dae06052') in 0.017484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/mouth/Character_Mouth_Black 2.png
+  artifactKey: Guid(99d2413311ef53a44b452eb59c2ec861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Character_Mouth_Black 2.png using Guid(99d2413311ef53a44b452eb59c2ec861) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ec41a14fe0b8df4a9cd12c2fb78fcc80') in 0.017059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/mouth/Hina_Mouth.png
+  artifactKey: Guid(73bd5a11082a9fa419e93e2b63fe609f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Hina_Mouth.png using Guid(73bd5a11082a9fa419e93e2b63fe609f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81b3de31dfd35f7c2249b6228abdb1e5') in 0.015113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/mouth/Hina_Mouth 1.png
+  artifactKey: Guid(afd2712efed3e6548b334951b23ba69f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Hina_Mouth 1.png using Guid(afd2712efed3e6548b334951b23ba69f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94033477e3892dbd296844d3fc726fa1') in 0.018870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/mouth/Izuna_Mouth 6.png
+  artifactKey: Guid(2fc2b0a1c48fed648ae38d6338a9c99c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Izuna_Mouth 6.png using Guid(2fc2b0a1c48fed648ae38d6338a9c99c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89f15df95162835a74f44d5703566c6d') in 0.016879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/mouth/Hina_Mouth 2.png
+  artifactKey: Guid(057f0e9293cde454e907c547c12e16f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Hina_Mouth 2.png using Guid(057f0e9293cde454e907c547c12e16f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cd7ff5d553237de3dd6024e78c771f1') in 0.017527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/mouth/Character_Mouth_2 2.png
+  artifactKey: Guid(5183d3392ab6fcc48b8819c914da4a22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Character_Mouth_2 2.png using Guid(5183d3392ab6fcc48b8819c914da4a22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e79e74953204adcf8221df30a6d1e73f') in 0.015131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/mouth/Izuna_Mouth 5.png
+  artifactKey: Guid(15b747418e2e67747815d30b8c22c6bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Izuna_Mouth 5.png using Guid(15b747418e2e67747815d30b8c22c6bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ac89c4e4a57881cce0c4d283abbdb68a') in 0.016704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/mouth/Izuna_Mouth.png
+  artifactKey: Guid(aba96888419e4d14ca4e29a424592a82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Izuna_Mouth.png using Guid(aba96888419e4d14ca4e29a424592a82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93999b9fee0190cd14ab5e64166578d9') in 0.015304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/mouth/Hina_Mouth 8.png
+  artifactKey: Guid(4b2b356194a5bdf45b6a1f8a1424a026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Hina_Mouth 8.png using Guid(4b2b356194a5bdf45b6a1f8a1424a026) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ae9f45fc2d220da7e1042a50f81ae3d') in 0.018830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/mouth/Character_Mouth_2.png
+  artifactKey: Guid(c54b13adb4bbcdc4b80b2f012bb61409) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/Character_Mouth_2.png using Guid(c54b13adb4bbcdc4b80b2f012bb61409) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecd63eef70a1c2615737efd9522e9076') in 0.015238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
