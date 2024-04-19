@@ -1,0 +1,428 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15773 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+F:/test
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+63654
+Successfully changed project path to: F:/test
+F:/test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8776] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 150306699 [EditorId] 150306699 [Version] 1048832 [Id] WindowsEditor(7,PRTS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8776] Host "[IP] 192.168.0.113 [Port] 0 [Flags] 2 [Guid] 150306699 [EditorId] 150306699 [Version] 1048832 [Id] WindowsEditor(7,PRTS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 18.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012274 seconds.
+- Loaded All Assemblies, in  0.527 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 768ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (107ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (245ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (194ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.860 seconds
+Refreshing native plugins compatible for Editor in 4.37 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1549ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (626ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (696ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (419ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 5.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (349.0 KB). Loaded Objects now: 5509.
+Memory consumption went from 209.8 MB to 209.4 MB.
+Total: 4.514200 ms (FindLiveObjects: 0.351600 ms CreateObjectMapping: 0.151400 ms MarkObjects: 3.823000 ms  DeleteObjects: 0.187000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 525734.940783 seconds.
+  path: Assets/mouth/mouthshader.png
+  artifactKey: Guid(776784b85c31ece419e97fe017758885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/mouth/mouthshader.png using Guid(776784b85c31ece419e97fe017758885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c446d0c264225810497593c575a41b81') in 0.166865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 319.384101 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh
+  artifactKey: Guid(e515127b068f9254bb0f68ffd568ed5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh using Guid(e515127b068f9254bb0f68ffd568ed5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a7fb84acf0e8843287c566ece320aea') in 0.003765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.035571 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Body.png
+  artifactKey: Guid(9754ccaa3408c4a45b144f64cc82c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Body.png using Guid(9754ccaa3408c4a45b144f64cc82c5fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423b7eca46e0662efcf772b17f7be060') in 0.048880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.050190 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Face.png
+  artifactKey: Guid(c45f81c18338d8346a4176003e817a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Face.png using Guid(c45f81c18338d8346a4176003e817a5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78aa83ad56db8c10a920b8e329d54a5e') in 0.017490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Hair_Mask.png
+  artifactKey: Guid(99d2724cf3dd8284ab952359c5a1d685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Hair_Mask.png using Guid(99d2724cf3dd8284ab952359c5a1d685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755d523d26dbb5026535aaac89660fa4') in 0.011409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Hair.png
+  artifactKey: Guid(cf41a31742806d849b33d2088f1054c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Hair.png using Guid(cf41a31742806d849b33d2088f1054c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dc8abcd7391a177e52c843717fb96b') in 0.011151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Hair_Spec.png
+  artifactKey: Guid(322d5aedf48bece4987b499ec1db324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Hair_Spec.png using Guid(322d5aedf48bece4987b499ec1db324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c0b414a51dacef1812849c3bbdb50b') in 0.012988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.748043 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Weapon.png
+  artifactKey: Guid(81bf4819b03f58741817e0b702c72b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Weapon.png using Guid(81bf4819b03f58741817e0b702c72b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c33782fe8d26069edbeaa3fb30a81b8e') in 0.015093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Face.png
+  artifactKey: Guid(c45f81c18338d8346a4176003e817a5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Face.png using Guid(c45f81c18338d8346a4176003e817a5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54ff00ca63e19afd15aa9bfb50e7088c') in 0.015901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Hair.png
+  artifactKey: Guid(cf41a31742806d849b33d2088f1054c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Hair.png using Guid(cf41a31742806d849b33d2088f1054c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2532280deed1c4dcd7dbec69d41d165') in 0.019614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Hair_Mask.png
+  artifactKey: Guid(99d2724cf3dd8284ab952359c5a1d685) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Hair_Mask.png using Guid(99d2724cf3dd8284ab952359c5a1d685) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a563a8c295e9ab0f8e6f9ea597da511e') in 0.014958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Weapon_Mask.png
+  artifactKey: Guid(6d85286b6e2284a43b00cff5efe9139f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Weapon_Mask.png using Guid(6d85286b6e2284a43b00cff5efe9139f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1d2cc804b3f607b1915e1b9f6e2bb80') in 0.016236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_EyeMouth.png
+  artifactKey: Guid(5fef000c160fcee41a5161dec08d0c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_EyeMouth.png using Guid(5fef000c160fcee41a5161dec08d0c09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bedd1623e736934adcbbc99d6bab6e12') in 0.015158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Body_Mask.png
+  artifactKey: Guid(197633650a62eb34c863163cc253e02f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Body_Mask.png using Guid(197633650a62eb34c863163cc253e02f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ff552035fa3943ad46c275df20e3938') in 0.020017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/鍦ｅ洯鏈姳/CH0151_Body.png
+  artifactKey: Guid(9754ccaa3408c4a45b144f64cc82c5fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/CH0151_Body.png using Guid(9754ccaa3408c4a45b144f64cc82c5fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad398577e3eff6fb2bd58d29f60cfb4d') in 0.016202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.947337 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh.fbx
+  artifactKey: Guid(a0a455ba8a3034c4ba4699283a0b2147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh.fbx using Guid(a0a455ba8a3034c4ba4699283a0b2147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0103caa4046075f8f77ad6905a94e8a6') in 0.368527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 369
+========================================================================
+Received Import Request.
+  Time since last request: 0.569947 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh.fbx
+  artifactKey: Guid(a0a455ba8a3034c4ba4699283a0b2147) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh.fbx using Guid(a0a455ba8a3034c4ba4699283a0b2147) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03ce5998b76df1fe93e7066b49936fcc') in 0.047835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 367
+========================================================================
+Received Import Request.
+  Time since last request: 36.148456 seconds.
+  path: Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh.fbx
+  artifactKey: Guid(a0a455ba8a3034c4ba4699283a0b2147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/MikaEnemy_Original_Mesh.fbx using Guid(a0a455ba8a3034c4ba4699283a0b2147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a6961f237c5a55b7c685d118d17b57e') in 0.042196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 368
+========================================================================
+Received Import Request.
+  Time since last request: 0.934982 seconds.
+  path: Assets/鍦ｅ洯鏈姳/Materials/CH0151_Weapon.mat
+  artifactKey: Guid(903bc44a86a81e546921c6cc5f6a0b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/Materials/CH0151_Weapon.mat using Guid(903bc44a86a81e546921c6cc5f6a0b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb298dbb3b3f18172cca287dcfe0e16b') in 0.009809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/鍦ｅ洯鏈姳/Materials
+  artifactKey: Guid(f5d194e1defdd314692f98dfb853e9b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/Materials using Guid(f5d194e1defdd314692f98dfb853e9b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c067e65a188722abd8bb1ca260fb1138') in 0.004423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.005582 seconds.
+  path: Assets/鍦ｅ洯鏈姳/Materials/CH0151_Face.mat
+  artifactKey: Guid(9bd04c4b650c44c43afdf008b8609f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/Materials/CH0151_Face.mat using Guid(9bd04c4b650c44c43afdf008b8609f37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11a2fef31878817aecd6f89df0228ffa') in 0.008814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/鍦ｅ洯鏈姳/Materials/CH0151_EyeMouth.mat
+  artifactKey: Guid(344c6cc3d2731424aa3afcbd8adf35f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/Materials/CH0151_EyeMouth.mat using Guid(344c6cc3d2731424aa3afcbd8adf35f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65e58eaefbe110803ee56ec7c6628ffd') in 0.007121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/鍦ｅ洯鏈姳/Materials/CH0151_Hair.mat
+  artifactKey: Guid(2f6818359651c1a4e8225170542ece8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/Materials/CH0151_Hair.mat using Guid(2f6818359651c1a4e8225170542ece8d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '052febed47806fc44105ba34e463c480') in 0.012901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/鍦ｅ洯鏈姳/Materials/CH0151_Body.mat
+  artifactKey: Guid(9714a39c7b6a36a44b8bbcddb27a739a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/Materials/CH0151_Body.mat using Guid(9714a39c7b6a36a44b8bbcddb27a739a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26e22f938f233874e0751b2d02375510') in 0.007899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/鍦ｅ洯鏈姳/Materials/CH0151_Eyebrow.mat
+  artifactKey: Guid(9a7dbb95b409a4f4aa97288e0356f5c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/鍦ｅ洯鏈姳/Materials/CH0151_Eyebrow.mat using Guid(9a7dbb95b409a4f4aa97288e0356f5c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fe68525d47a15a9b74d0e21a4975b7a') in 0.007833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.580254 seconds.
+  path: Assets/鍦ｅ洯鏈姳/Materials/CH0151_Eyebrow.mat
+  artifactKey: Guid(9a7dbb95b409a4f4aa97288e0356f5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/Materials/CH0151_Eyebrow.mat using Guid(9a7dbb95b409a4f4aa97288e0356f5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1f3c1d3bc6be6568a7b6d473f3d71a') in 0.009329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/鍦ｅ洯鏈姳/Materials/CH0151_Weapon.mat
+  artifactKey: Guid(903bc44a86a81e546921c6cc5f6a0b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/Materials/CH0151_Weapon.mat using Guid(903bc44a86a81e546921c6cc5f6a0b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2800ae54d342cdca61e0bb797ad93199') in 0.009428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/鍦ｅ洯鏈姳/Materials/CH0151_Hair.mat
+  artifactKey: Guid(2f6818359651c1a4e8225170542ece8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/鍦ｅ洯鏈姳/Materials/CH0151_Hair.mat using Guid(2f6818359651c1a4e8225170542ece8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '019663a49b3a73d50d26168971b20118') in 0.008970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
