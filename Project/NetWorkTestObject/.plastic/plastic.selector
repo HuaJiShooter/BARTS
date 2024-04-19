@@ -1,0 +1,4 @@
+repository "NetWorkTestObject@hua_ji_shooter@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
