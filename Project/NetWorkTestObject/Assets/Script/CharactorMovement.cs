@@ -21,6 +21,8 @@ namespace CharactorMovement
         private Transform CharactorTransform = null;
         private NavMeshAgent Nav = null;
 
+
+
         // Start is called before the first frame update
         void Start()
         {
@@ -37,6 +39,11 @@ namespace CharactorMovement
         void Update()
         {
             if (!IsOwner) return;
+
+            //指定目标时
+
+            //自动索敌
+
             //如果有攻击目标,且不在攻击
             if(Target != null && !bAttacking)
             {
@@ -48,6 +55,7 @@ namespace CharactorMovement
                 {
                     //在攻击范围内则攻击
                     bAttacking = true;
+                    CharactorMoveAnimator.SetBool("bAttacking", true);
                     //停止移动
                     Nav.isStopped = true;
                 }
@@ -57,6 +65,7 @@ namespace CharactorMovement
                     //继续追击
                     Nav.SetDestination(TargetPlace);
                     bAttacking = false;
+                    CharactorMoveAnimator.SetBool("bAttacking", false);
                     bMoving = false;
                 }
             }
@@ -82,6 +91,9 @@ namespace CharactorMovement
                 }
             }
             CharactorMoveAnimator.SetFloat("MoveSpeed", (float)(Nav.velocity.magnitude / 2.75));
+
+
+
 
         }
 

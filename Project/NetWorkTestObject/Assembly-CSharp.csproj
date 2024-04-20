@@ -65,8 +65,8 @@
     <Compile Include="Assets\Script\TextScripts.cs" />
     <Compile Include="Assets\Script\MapGenerator\MapManager.cs" />
     <Compile Include="Assets\Script\ClientAnimator.cs" />
+    <Compile Include="Assets\Script\CharacterController\CharacterControllerBase.cs" />
     <Compile Include="Assets\Script\NetWorkButtonScript.cs" />
-    <Compile Include="Assets\Script\PlayerController\PlayerController.cs" />
     <Compile Include="Assets\Script\NetWorkText.cs" />
     <Compile Include="Assets\Script\CameraMove.cs" />
     <Compile Include="Assets\Script\TestScript.cs" />

@@ -42,10 +42,10 @@ public class CameraMove : MonoBehaviour
             {
                 //设置为选中的角色
                 SelectedObject = hit.collider.gameObject;
-                Debug.Log("Selected Object is",SelectedObject);
+                Debug.Log("Selected Object is："+SelectedObject.name);
             }
-
         }
+
         //右键获取目标
         else if(Input.GetMouseButtonDown(1)){
             Ray ray1 = Camera.main.ScreenPointToRay(Input.mousePosition);

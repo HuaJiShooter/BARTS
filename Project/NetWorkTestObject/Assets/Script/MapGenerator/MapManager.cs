@@ -8,8 +8,6 @@ using UnityEngine;
 
 public class MapManager : NetworkBehaviour
 {
-    [Header("MapManager")]
-    public GameObject mapGeneratorScript;
 
     public GameObject tilePrefab;
     public GameObject cantDestroyTilePrefab;
