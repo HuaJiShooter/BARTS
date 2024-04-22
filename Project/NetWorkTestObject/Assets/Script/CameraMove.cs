@@ -98,9 +98,9 @@ public class CameraMove : MonoBehaviour
         pos.y += Input.GetAxis("Mouse ScrollWheel") * scrollSpeed * Time.deltaTime;
         pos.z += moveInput.normalized.z * panSpeed * Time.deltaTime;
 
-        pos.x = Mathf.Clamp(pos.x, -10, 10);
-        pos.y = Mathf.Clamp(pos.y, 5, 10);
-        pos.z = Mathf.Clamp(pos.z, -25, 5);
+        pos.x = Mathf.Clamp(pos.x, -100, 100);
+        pos.y = Mathf.Clamp(pos.y, 2, 6);
+        pos.z = Mathf.Clamp(pos.z, -100, 100);
 
         transform.position = pos;
     }

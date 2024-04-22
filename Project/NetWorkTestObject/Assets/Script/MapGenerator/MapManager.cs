@@ -12,6 +12,7 @@ public class MapManager : NetworkBehaviour
     public GameObject tilePrefab;
     public GameObject cantDestroyTilePrefab;
     public GameObject obsPrefab;
+    public GameObject borderPrefab;
     public Transform mapHoleder;
 
     [Header("’œ∞≠ŒÔ—’…´")]
@@ -61,7 +62,7 @@ public class MapManager : NetworkBehaviour
                         Instantiate(cantDestroyTilePrefab, newPos, Quaternion.identity).transform.SetParent(mapHoleder);
                         break;
                     case 8:
-                        Instantiate(cantDestroyTilePrefab, newPos, Quaternion.identity).transform.SetParent(mapHoleder);
+                        Instantiate(borderPrefab, newPos, Quaternion.identity).transform.SetParent(mapHoleder);
                         break;
                 }
             }
